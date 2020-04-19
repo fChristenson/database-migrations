@@ -1,11 +1,11 @@
-# Node Demo
+# Database Migrations
 
 ## What we will cover
 
-- 1
-- 2
-- 3
+- What is a database migration?
+- What strategies can we use?
 
 ## Notes
 
-Some notes
+Database migrations are a challenging yet necessary part of a developers life.
+As our system grows new decisions are made that forces us to update our data models.
