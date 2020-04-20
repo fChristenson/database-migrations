@@ -14,7 +14,7 @@ class UserDao {
       user.firstName = first;
       user.lastName = last || "";
       user.name = undefined;
-      await user.save();
+      return await user.save();
     }
 
     return user;
