@@ -1,5 +1,6 @@
 const User = require("./UserModel");
 
+// Using a Dao makes life easier when migrating models.
 class UserDao {
   findAll() {
     return await User.find({});
