@@ -23,7 +23,7 @@ class UserDao {
 
   saveUser(props) {
     const { firstName, lastName, age, email } = props;
-    new User({ firstName, lastName, age, email }).save();
+    return new User({ firstName, lastName, age, email }).save();
   }
 }
 
