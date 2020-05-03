@@ -35,7 +35,7 @@ app.post("/api/v3/users", async (req, res) => {
   res.json(user);
 });
 
-// If we can't stop the system to run a migraiton job a slower migration strategy is needed.
+// If we can't stop the system to run a migration job a slower migration strategy is needed.
 // The following code is an example of migrating each user as they use the system.
 app.get("/api/v3/users/:id", async (req, res) => {
   const user = await User.findById(req.params.id);
